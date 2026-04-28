@@ -3,5 +3,5 @@ CREATE TABLE Stores (
   LOCATION VARCHAR(255),
   employee_id INT,
   REVENUE INT,
-  FOREIGN KEY (employee_id) REFERENCES EMPLOYEE(ID)
+  FOREIGN KEY (employee_id) REFERENCES employee(id)
 );
